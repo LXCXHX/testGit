@@ -16,8 +16,6 @@ public class ScheduledTest {
 		System.out.println("码家学院提示你==》现在时间：" + dateFormat.format(new Date()));
 	}
 	
-	public static void main(String[] args) {
-		
-	}
+
 
 }
