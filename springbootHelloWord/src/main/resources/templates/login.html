@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>登录页面</title>
+<script type="text/javascript" th:src="@{style/jquery-3.3.1.js}"></script>
+<script type="text/javascript">
+  $(function(){
+	  $('#login').click(function(){
+		   $('#loginform').submit(); 
+	   });
+  });
+   
+</script>
+</head>
+<body>
+    <div>
+        <h2>用户登录</h2>
+    </div>
+    <form action="tologin" method="post" id="loginform">
+        <input type="text" name="username" id="username"/>
+        <input type="password" name="passwd" id="passwd"/>
+        <button type="button" id="login">登录</button>        
+    </form>
+</body>
+</html>
