@@ -21,6 +21,7 @@ import org.springframework.context.annotation.Configuration;
 
 import com.lxc.springbootHelloWord.realm.UserRealm;
 
+
 @Configuration
 public class ShiroConfiguration {
 	/**
